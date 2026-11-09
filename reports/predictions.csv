@@ -1,0 +1,31 @@
+texto,categoria_real,categoria_prevista,correto
+A conta foi bloqueada e não consigo autenticar,acesso,acesso,True
+Solicito redefinição das credenciais do portal,acesso,acesso,True
+Meu autenticador não gera um código válido,acesso,acesso,True
+Preciso de permissão de leitura na pasta do setor,acesso,acesso,True
+A senha nova não permite entrar no email,acesso,acesso,True
+Recebo acesso negado quando tento abrir meus documentos,acesso,acesso,True
+Nenhuma página abre e o roteador está piscando,rede,rede,True
+A VPN desconecta a cada minuto,rede,rede,True
+Meu computador não obtém IP pelo cabo,rede,hardware,False
+O sinal do wifi desapareceu,rede,rede,True
+Há falha de DNS em todos os sites,rede,rede,True
+A internet fica lenta durante a videoconferência,rede,rede,True
+Todos os documentos ficam parados na fila de impressão,impressao,impressao,True
+A multifuncional está prendendo as folhas,impressao,impressao,True
+O toner novo deixou a impressão borrada,impressao,impressao,True
+O scanner não consegue digitalizar a página,impressao,impressao,True
+A impressora informa falta de papel mas a bandeja está cheia,impressao,impressao,True
+As cópias saem com listras pretas,impressao,impressao,True
+A bateria descarrega imediatamente ao retirar da tomada,hardware,impressao,False
+Meu teclado tem várias teclas quebradas,hardware,acesso,False
+A tela fica preta mesmo com o monitor ligado,hardware,hardware,True
+O notebook esquenta e desliga sozinho,hardware,hardware,True
+A porta USB está fisicamente solta,hardware,hardware,True
+A fonte faz ruído e o computador não inicia,hardware,hardware,True
+O editor encerra quando tento salvar um arquivo,software,software,True
+Não consigo concluir a instalação da atualização,software,acesso,False
+O leitor de PDF está travando ao abrir documentos,software,software,True
+O aplicativo solicita renovação de licença,software,software,True
+O navegador fecha depois da última atualização,software,software,True
+Preciso desinstalar um programa que não uso,software,software,True

@@ -1,0 +1,139 @@
+{
+  "dataset": "110 textos sintéticos escritos com assistência de IA; não são chamados reais",
+  "dataset_sha256": "dd475335ca7f67eaff0da9ab470481af8e2c389e45ef086cd4d7fe4a297fcdde",
+  "train_size": 80,
+  "test_size": 30,
+  "seed": 42,
+  "selection": "4-fold stratified CV on training only; macro F1",
+  "cv": {
+    "dummy_prior": {
+      "mean_f1_macro": 0.06666666666666667,
+      "std": 0.0,
+      "folds": [
+        0.06666666666666667,
+        0.06666666666666667,
+        0.06666666666666667,
+        0.06666666666666667
+      ]
+    },
+    "naive_bayes": {
+      "mean_f1_macro": 0.732550505050505,
+      "std": 0.08535150706161079,
+      "folds": [
+        0.7533333333333333,
+        0.7244444444444443,
+        0.6067099567099568,
+        0.8457142857142858
+      ]
+    },
+    "logistic_regression": {
+      "mean_f1_macro": 0.7567063492063492,
+      "std": 0.05436749791862759,
+      "folds": [
+        0.7533333333333333,
+        0.7244444444444443,
+        0.7033333333333334,
+        0.8457142857142858
+      ]
+    }
+  },
+  "selected_model": "logistic_regression",
+  "test_accuracy": 0.8666666666666667,
+  "test_f1_macro": 0.8651348651348651,
+  "baseline_test_f1_macro": 0.06666666666666667,
+  "classes": [
+    "acesso",
+    "hardware",
+    "impressao",
+    "rede",
+    "software"
+  ],
+  "classification_report": {
+    "acesso": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 6.0
+    },
+    "hardware": {
+      "precision": 0.8,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.7272727272727273,
+      "support": 6.0
+    },
+    "impressao": {
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1-score": 0.9230769230769231,
+      "support": 6.0
+    },
+    "rede": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 6.0
+    },
+    "software": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 6.0
+    },
+    "accuracy": 0.8666666666666667,
+    "macro avg": {
+      "precision": 0.8814285714285713,
+      "recall": 0.8666666666666666,
+      "f1-score": 0.8651348651348651,
+      "support": 30.0
+    },
+    "weighted avg": {
+      "precision": 0.8814285714285715,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.865134865134865,
+      "support": 30.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      4,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      5,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      5
+    ]
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "joblib": "1.5.3"
+  }
+}

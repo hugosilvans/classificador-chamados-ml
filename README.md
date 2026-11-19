@@ -2,7 +2,7 @@
 
 Um chamado chega em texto livre. Este protótipo sugere uma das cinco categorias — **acesso, rede, impressão, hardware ou software** — para apoiar uma triagem humana.
 
-**Projeto educacional em desenvolvimento, construído com assistência de IA.** A base contém apenas exemplos sintéticos, não chamados de uma instituição. Não há integração com sistemas reais nem evidência de impacto operacional.
+Projeto de estudo com assistência de IA na implementação, na criação dos exemplos sintéticos, nos testes e na documentação. A base contém apenas exemplos sintéticos, não chamados de uma instituição. Não há integração com sistemas reais nem evidência de impacto operacional.
 
 ## O que funciona
 
@@ -107,7 +107,6 @@ F1 macro dá o mesmo peso a cada categoria. O teste nunca escolhe modelo ou hipe
 | `tests/test_project.py` | Testes de dados, inferência e HTTP |
 | `reports/` | Resultados da execução |
 | [docs/MODEL_CARD.md](docs/MODEL_CARD.md) | Escopo e limitações do modelo |
-| [docs/GUIA_ESTUDO.md](docs/GUIA_ESTUDO.md) | Explicação para estudar e apresentar |
 
 ## Limites e próximos experimentos
 
@@ -118,12 +117,6 @@ F1 macro dá o mesmo peso a cada categoria. O teste nunca escolhe modelo ou hipe
 - Antes de uso real: coletar dados autorizados e minimizados, separar por origem/tempo, revisar rótulos, avaliar classes desbalanceadas, calibrar e medir a abstenção.
 - Para hospedagem futura: servidor/framework adequado, HTTPS, autenticação, limites de requisição e observabilidade sem registrar conteúdo sensível.
 - Não carregar arquivos joblib de fontes desconhecidas: esse formato pode executar código.
-
-## Transparência de autoria e estágio
-
-Protótipo preparado para o portfólio de Hugo da Silva Nunes com assistência de IA na implementação, nos textos sintéticos, nos testes e na documentação. O histórico registra a versão inicial; não representa meses de trabalho, pesquisa publicada ou experiência profissional com ML. A revisão, os experimentos e o domínio do código por Hugo são próximas etapas de aprendizado.
-
-Ainda não há modelo publicado no Hugging Face, participação em competição Kaggle ou artigo científico associado. O guia de estudo é documentação técnica do projeto.
 
 ## Referência técnica
 
